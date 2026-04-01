@@ -11,6 +11,7 @@ Anthropic 官方 CLI 工具，为 Claude 提供终端形态的 Agent Runtime 环
 Claude Code 是一个以 `query()` 为中枢的 agent runtime，UI、命令、工具、任务、记忆、MCP、远程会话都围绕同一个查询循环组装。
 
 核心特性：
+
 - **多工具编排**：内置工具系统 + MCP 协议扩展
 - **任务生命周期管理**：支持本地 agent、远程 agent、主线程后台化
 - **上下文压缩**：分层上下文回收链（snip → microcompact → context collapse → reactive compact）
@@ -145,6 +146,14 @@ cli.tsx 启动
 8. [08 上下文压缩与关键信息保真](docs/08-context-compression/README.md)
 9. [09 扩展分析](docs/09-extended-analysis/README.md)
 
-## 许可证
+---
 
-Anthropic
+## 研究声明
+
+本仓库其存在目的是研究源码暴露、打包失误及现代智能体 CLI 系统的架构。
+
+**重要说明：**
+
+- 原始 Claude Code 源代码的所有权归 **Anthropic** 所有。
+- 本仓库与 Anthropic 无关，未获 Anthropic 背书，亦不由 Anthropic 维护。
+- 本仓库仅用于安全研究和学习目的，请勿将其用于任何未经授权的用途。
