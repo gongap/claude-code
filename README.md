@@ -1,7 +1,10 @@
 # Claude Code （学习研究用途）
+
 本仓库镜像了一份公开暴露的 Claude Code 源码快照，该快照于 2026 年 3 月 31 日通过 npm 发行包中的 source map 泄露而被访问。本仓库维护目的为教育、防御性安全研究及软件供应链分析。
 
 Anthropic 官方 CLI 工具，为 Claude 提供终端形态的 Agent Runtime 环境。
+
+![Claude Code 交互界面](vscode-claude-code-interaction.png)
 
 ## 项目概述
 
