@@ -1,0 +1,5 @@
+preload = ["./preload.ts"]
+
+[resolve]
+# Map src/ imports to local src directory
+conditions = ["bun"]
